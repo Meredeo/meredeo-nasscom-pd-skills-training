@@ -7,7 +7,7 @@ Introduction to QFN-48 Package,chip,pads,core,die & IP's
 
 The most popular board in markets is ARDUINO boards. Usually it contains IC, power pins, Analog pins, digital signal inputs &
 interface.
-<img width="297" alt="arduino" src="https://github.com/Meredeo/meredeo-nasscom-pd-skills-training/assets/168132113/b3767c34-2b3c-43d7-8ce0-a3ee72f07dfb">
+![arduino!]()
 Typical Arduino board consists of Processor or IC which interacts with JTAG-UART FTDI, QSPI1-Flash, I2C0-EEPROM, VDD/GND,
 ADC (QSPI3), muxed with GPIO's, SDRAM 
 <Soc Image>
