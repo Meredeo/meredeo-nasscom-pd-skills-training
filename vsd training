@@ -2,4 +2,14 @@ Day 1:
 Inception of open source EDA, OpenLANE & Sky130 PDK
 The most popular board in markets is ARDUINO boards. Usually it contains IC, power pins, Analog pins, digital signal inputs &
 interface.
-
+<Arduino Image>
+Typical Arduino board consists of Processor or IC which interacts with JTAG-UART FTDI, QSPI1-Flash, I2C0-EEPROM, VDD/GND,
+ADC (QSPI3), muxed with GPIO's, SDRAM 
+<Soc Image>
+QFN-48 Package & Quad Flat no leads
+There are two types of chips which are wire bound & flip chip. In this swe are focussing on wire bound chip where IC 
+connects with inteface using wires.
+The components of the chip are PADS,CORE area,DIE area.
+In core area we have RISCV Soc, GPIO Bank, SRAM, ADC, DAC, SPI
+<Foundry Ip Image>
+Foundary is a place where chip manufacturing takes place. Examples of foundary are TSMC,GF,UMC,SAMSUNG
