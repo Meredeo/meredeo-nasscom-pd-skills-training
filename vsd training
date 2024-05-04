@@ -1,5 +1,10 @@
 Day 1:
-Inception of open source EDA, OpenLANE & Sky130 PDK
+
+Inception of open source EDA, OpenLANE & Sky130 PDK:
+How to talk to computers
+
+Introduction to QFN-48 Package,chip,pads,core,die & IP's
+
 The most popular board in markets is ARDUINO boards. Usually it contains IC, power pins, Analog pins, digital signal inputs &
 interface.
 <img width="297" alt="arduino" src="https://github.com/Meredeo/meredeo-nasscom-pd-skills-training/assets/168132113/b3767c34-2b3c-43d7-8ce0-a3ee72f07dfb">
@@ -13,3 +18,12 @@ The components of the chip are PADS,CORE area,DIE area.
 In core area we have RISCV Soc, GPIO Bank, SRAM, ADC, DAC, SPI
 <Foundry Ip Image>
 Foundary is a place where chip manufacturing takes place. Examples of foundary are TSMC,GF,UMC,SAMSUNG
+
+Introduction to RISC-V (Instruction Set Architecture)
+If C language is out to run on particular layout (interior chip), it has to compile in assembly language and then needs to compile into machine level language 
+(Hexa decimal format).
+HDL (Hardware descriptive language). It will have exact RISCV architecture defined specifications. picorv32 cpu core is considered example here.
+
+
+
+
