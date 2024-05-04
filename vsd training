@@ -20,9 +20,16 @@ In core area we have RISCV Soc, GPIO Bank, SRAM, ADC, DAC, SPI
 Foundary is a place where chip manufacturing takes place. Examples of foundary are TSMC,GF,UMC,SAMSUNG
 
 Introduction to RISC-V (Instruction Set Architecture)
+
+
 If C language is out to run on particular layout (interior chip), it has to compile in assembly language and then needs to compile into machine level language 
 (Hexa decimal format).
-HDL (Hardware descriptive language). It will have exact RISCV architecture defined specifications. picorv32 cpu core is considered example here.
+HDL (Hardware descriptive language). It will have exact RISCV architecture defined specifications. Example considered here is picorv32 cpu core.
+
+
+From Software Applications to hardware
+
+Various components of system software are OS,COMPILER,ASSEMBLER.
 
 
 
