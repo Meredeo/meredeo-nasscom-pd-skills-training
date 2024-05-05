@@ -58,7 +58,13 @@ To deliver the clock to all sequential elements (eg : FF)
 With minimum skew (Zero is hard to achieve)
 And un a good shape. Usually H Tree, X Tree.
 Routing: Implement the interconnect using the available metal layers.
-
+Metal tracks form a routing grid which is huge.Divide and conquer.
+Global Routing: Generates routing guides.
+Detailed Routing: Uses the routing guides to implement the actual wiring.
+SIGNOFF:
+Physical Verifications:
+Design Rules Checking (DRC's) & Layout v/s schematic (LVS)
+Timing Verification: Static Timing Analysis.
 
 
 
