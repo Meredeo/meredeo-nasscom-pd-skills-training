@@ -31,6 +31,9 @@ From Software Applications to hardware
 
 Various components of system software are OS,COMPILER,ASSEMBLER.
 
-
-
+SOC DESIGN USING OPEN LANE
+Few open source EDA Tools are
+CloudV (cloud based verilog IDE/Simulator)
+Fault (DFT toolchan)
+SocGen (SoC generation from architectural desc)
 
