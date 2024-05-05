@@ -66,8 +66,18 @@ Physical Verifications:
 Design Rules Checking (DRC's) & Layout v/s schematic (LVS)
 Timing Verification: Static Timing Analysis.
 
+Introduction to OpenLANE and strive chipsets
 
-
+openlane.io
+Started as an open source flow for a true open source tape out experiment.Strive is a family of open everything soc's.
+open PDK, open EDA, open RTL.
+Main Goal:
+Produce a clean GDSII with no human intervention (no human in the loop)
+Clean means:
+No LVS violations
+No DRC violations
+Timing violation? WIP!
+It is tuned for skywater 130nm open PDK. Also supports XFAB180 & GF130G
 
 
 
