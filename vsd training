@@ -36,4 +36,32 @@ Few open source EDA Tools are
 CloudV (cloud based verilog IDE/Simulator)
 Fault (DFT toolchan)
 SocGen (SoC generation from architectural desc)
+AISC needs RTL IP's, EDA Tools & PDK DATA (process design kits). Few important websites are 
+librecores.org
+opencores.org
+github.com
+Few important EDA tools are Qflow, open road, open lane, spice simulator,sis,magic.
+Collection of files used to model a fabrication process for the EDA tools used to design an IC
+process Design Rules: DRC,LVS,PEX
+Device Models, Digital standard cell libraries, IO libraries
+FOSS 130nm production PDK: github.com/google/skywater-pdk
+
+Simplified RTL to GDSII FLOW
+Synthesis, floorplan, placement, clock tree synthesis, routing, signoff
+Synthesis: Converts RTL to a circuit out of components from the std cell library.
+Chip floorplanning: Partition the chip die between different system building blocks and place the I/O pads.
+Macro Floor Planning: Dimensions,pin locations,rows definition.
+Power planning
+Place the cells on the floorplan rows, aligned with the sites which usually happens in 2 steps, Global & Detailed.
+Clock tree synthesis: Create a clock distribution network.
+To deliver the clock to all sequential elements (eg : FF)
+With minimum skew (Zero is hard to achieve)
+And un a good shape. Usually H Tree, X Tree.
+Routing: Implement the interconnect using the available metal layers.
+
+
+
+
+
+
 
